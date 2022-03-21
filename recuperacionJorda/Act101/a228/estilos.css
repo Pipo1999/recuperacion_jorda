@@ -1,0 +1,21 @@
+table, tr, th {
+    color: white;
+}
+
+table {
+    background-color: lightgray;
+}
+
+tr {
+    background-color: blue;
+}
+
+.y {
+    background-color: orange;
+}
+
+.result{
+    padding: 3px;
+    color: black;
+    background-color: white;
+}
