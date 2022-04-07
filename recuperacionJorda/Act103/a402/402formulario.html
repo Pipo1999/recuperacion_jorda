@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>402</title>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+    <body>
+        <form action="402formulario.php" method="GET">
+            <p><label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" value="" />
+            </p>
+
+            <p><label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos" value="" />
+            </p>
+
+            <p><label for="url">Url página personal:</label>
+                <input type="text" name="url" id="url" value="" />
+            </p>
+
+            <p>
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="sexo" value="masculino" />Masculino
+                <input type="radio" name="sexo" value="femenino" />Femenino
+            </p>
+
+            <p><label for="convivientes">Número de convivientes en el domicilio:</label>
+                <input type="number" name="convivientes" id="convivientes" value="" />
+            </p>
+
+            <p>
+                <label for="aficiones">Aficiones:</label>
+                <input type="checkbox" name="aficiones[]" value="videojuegos" />
+                <label for="aficiones">Videojuegos</label>
+                <input type="checkbox" name="aficiones[]" value="deporte" />
+                <label for="aficiones">Deporte</label>
+                <input type="checkbox" name="aficiones[]" value="lectura" />
+                <label for="aficiones">Lectura</label>
+                <input type="checkbox" name="aficiones[]" value="cocina" />
+                <label for="aficiones">Cocina</label>
+            </p>
+
+            <p>
+                <label for="menu">Menú favorito:</label>
+                <select name="menu[]">
+                    <option value="select" disabled selected>Selecciona un menú</option>
+                    <option value="macarrones">Macarrones carbonara</option>
+                    <option value="arrozHorno">Arroz al horno</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="puchero">Puchero</option>
+                </select>
+            </p>
+
+            <input type="submit" value="Enviar" name="enviar" />
+        </form>
+    </body>
+</html>

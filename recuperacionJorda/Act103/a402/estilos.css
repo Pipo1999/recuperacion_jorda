@@ -1,0 +1,7 @@
+table, table th, table td {
+    border: solid black 1px;
+}
+
+table th {
+    text-align: start;
+}
